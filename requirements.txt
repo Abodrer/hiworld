@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.12.0
+yt-dlp==2023.08.28
+spotipy==2.22.1
+requests==2.31.0
