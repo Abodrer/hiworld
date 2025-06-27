@@ -27,8 +27,6 @@ pending_search = {}
 
 # /start
 @bot.message_handler(commands=['start'])
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-
 def welcome(msg):
     text = (
         "🎶 <b>أهلًا بيك في بوت الأغاني!</b>\n\n"
